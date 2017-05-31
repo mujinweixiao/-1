@@ -21,6 +21,12 @@
     [self xiuGai];
     
     [self fenZhiOneXiuGai];
+    
+    [self chectOut];
+}
+- (void)chectOut
+{
+    NSLog(@"----在checkout上面的修改");
 }
 - (void)fenZhiOneXiuGai
 {
