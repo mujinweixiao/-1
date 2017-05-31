@@ -17,8 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self xiuGai];
+    
+    
 }
-
+- (void)xiuGai
+{
+    NSLog(@"第一次修改");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
