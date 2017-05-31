@@ -20,7 +20,11 @@
     
     [self xiuGai];
     
-    
+    [self fenZhiOneXiuGai];
+}
+- (void)fenZhiOneXiuGai
+{
+    NSLog(@"在分支一上的修改");
 }
 - (void)xiuGai
 {
