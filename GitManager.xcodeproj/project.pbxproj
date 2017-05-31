@@ -15,6 +15,7 @@
 		C7B85A7B1EDE994D008C7C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B85A791EDE994D008C7C33 /* LaunchScreen.storyboard */; };
 		C7B85A861EDE994D008C7C33 /* GitManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B85A851EDE994D008C7C33 /* GitManagerTests.m */; };
 		C7B85A911EDE994D008C7C33 /* GitManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B85A901EDE994D008C7C33 /* GitManagerUITests.m */; };
+		C7D949541EDEA511006EFDC8 /* One.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D949531EDEA511006EFDC8 /* One.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C7B85A8C1EDE994D008C7C33 /* GitManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B85A901EDE994D008C7C33 /* GitManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitManagerUITests.m; sourceTree = "<group>"; };
 		C7B85A921EDE994D008C7C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D949521EDEA511006EFDC8 /* One.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One.h; sourceTree = "<group>"; };
+		C7D949531EDEA511006EFDC8 /* One.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C7B85A6F1EDE994D008C7C33 /* AppDelegate.m */,
 				C7B85A711EDE994D008C7C33 /* ViewController.h */,
 				C7B85A721EDE994D008C7C33 /* ViewController.m */,
+				C7D949521EDEA511006EFDC8 /* One.h */,
+				C7D949531EDEA511006EFDC8 /* One.m */,
 				C7B85A741EDE994D008C7C33 /* Main.storyboard */,
 				C7B85A771EDE994D008C7C33 /* Assets.xcassets */,
 				C7B85A791EDE994D008C7C33 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				C7B85A731EDE994D008C7C33 /* ViewController.m in Sources */,
 				C7B85A701EDE994D008C7C33 /* AppDelegate.m in Sources */,
+				C7D949541EDEA511006EFDC8 /* One.m in Sources */,
 				C7B85A6D1EDE994D008C7C33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +520,7 @@
 				C7B85A971EDE994D008C7C33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7B85A981EDE994D008C7C33 /* Build configuration list for PBXNativeTarget "GitManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				C7B85A9A1EDE994D008C7C33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7B85A9B1EDE994D008C7C33 /* Build configuration list for PBXNativeTarget "GitManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				C7B85A9D1EDE994D008C7C33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
