@@ -27,6 +27,7 @@
 - (void)chectOut
 {
     NSLog(@"----在checkout上面的修改");
+    NSLog(@"11111111111111111");
 }
 - (void)fenZhiOneXiuGai
 {
